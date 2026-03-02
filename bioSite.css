@@ -17,8 +17,9 @@ h3 {
 }
 
 p {
-	font-family: serif;
-	font-size: 1.2rem;
+	font-family: Merriweather, serif;
+	font-size: 1.3rem;
+	line-height: 1.8;
 }
 
 body {
@@ -83,12 +84,19 @@ footer {
 
 .highlight-item {
 	max-width: 300px;
+	border-radius: 10px;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+	overflow: hidden;
+	transition: box-shadow 0.3s ease;
+}
+
+.highlight-item:hover {
+	box-shadow: 0 8px 28px rgba(0, 0, 0, 0.18);
 }
 
 .highlight-item img {
 	width: 100%;
 	height: auto;
-	border-radius: 10px;
 }
 
 .page-title {
@@ -109,10 +117,25 @@ footer {
 
 .hobby-item {
 	max-width: 500px;
+	border-radius: 10px;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+	overflow: hidden;
+	transition: box-shadow 0.3s ease;
+}
+
+.hobby-item:hover {
+	box-shadow: 0 8px 28px rgba(0, 0, 0, 0.18);
 }
 
 .hobby-item img {
 	width: 100%;
 	height: auto;
-	border-radius: 10px;
+}
+
+.hobby-item h2 {
+    padding: 0 16px 16px;
+}
+
+.hobby-item h3 {
+    padding: 0 16px 16px;
 }
